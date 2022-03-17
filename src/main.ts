@@ -23,7 +23,3 @@ function main() {
 }
 
 main();
-
-let myNumb: number;
-
-myNumb = "five";
