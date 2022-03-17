@@ -1,12 +1,12 @@
 const VAT = 0.19; // 19% Mehrwertsteuer
 
 // Wandelt eine Zahl in ein Deutschen Preis um: z.B. 5.5 -> 5,5€
-function formatPrice(price: number) {
+function formatPrice(price: number) : string {
     return (price + '€').replace('.', ',')
 }
 
 // Addiert die Umsatzsteuer
-function addVat(price: number) {
+function addVat(price: number) : number {
     return price * (1 + VAT);
 }
 
@@ -23,7 +23,3 @@ function main() {
 }
 
 main();
-
-let myNumb: number;
-
-myNumb = "five";
