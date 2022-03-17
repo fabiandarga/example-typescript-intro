@@ -4,6 +4,7 @@
   "description": "",
   "main": "src/main.ts",
   "scripts": {
+    "dev": "npm run watch-and-run",
     "watch-and-run": "tsc -w & nodemon -q -w dist dist/main.js"
   },
   "author": "Fabian Darga",
